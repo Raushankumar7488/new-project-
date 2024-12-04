@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+.header-mislaneous{ 
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(31, 127, 127);
+    background-color: rgb(170, 233, 233);
+}
+.header-nav{
+    background-image: url(https://himachaltourism.gov.in/wp-content/themes/Avada-Child-Theme/images/mount-1-header.png);
+    height: 70px;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.menu ul{
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    letter-spacing: 1.6px;
+}
+.menu ul li{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.menu ul li:hover,.menu ul li:active{
+    background-color: rgb(2, 159, 62);
+}
+.main-div{
+    display: flex;
+    height: 450px;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(50, 50, 52)
+    ;
+}
+.main-image{
+    background-image: url(2.jpg);
+    background-size: cover;
+    width: 100%;
+   
+}
+.main-content{
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ line-height: 1.8;
+}
+.main-content h2{
+    margin-bottom: 15px;
+}
